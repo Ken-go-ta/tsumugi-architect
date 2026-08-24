@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>紬建築設計室｜時を重ねるほど、価値を深める住まい</title>
+    <meta name="description" content="紬建築設計室は、住宅設計を専門とする一級建築士事務所です。土地や暮らしを丁寧に読み解き、美しさだけでなく耐震・断熱・気密・耐久性まで追求。一邸一邸、長く暮らせる質の高い住まいを設計します。">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="fixed-header">
+        <a class="header_logo" href="#">
+            <img src="images/logo-white.png" alt="ロゴ">
+        </a>
+        <div class="nav_cta">
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#">ホーム</a></li>
+                    <li><a href="#">私たちについて</a></li>
+                    <li><a href="#">こだわり</a></li>
+                    <li><a href="#">施工事例</a></li>
+                    <li><a href="#">お知らせ</a></li>
+                    <li><a href="#">会社情報</a></li>
+                </ul>
+            </nav>
+            <a class="contact" href="#">お問い合わせ</a>        
+        </div>
+        <button class="hamburger" id="hamburgerBtn" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileNav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <div class="mobile-nav" id="mobileNav">
+        <nav>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">私たちについて</a></li>
+                <li><a href="#">こだわり</a></li>
+                <li><a href="#">施工事例</a></li>
+                <li><a href="#">お知らせ</a></li>
+                <li><a href="#">会社情報</a></li>
+            </ul>
+            <a class="contact" href="#">お問い合わせ</a>
+        </nav>
+    </div>
+    <section id="hero">
+        <h1>
+            時を重ねるほど<br>
+            価値を深める住まい        
+        </h1>
+    </section>
+    <main>
+        <section id="about_hp">
+            <h2>
+                <p class="h2_s">ABOUT US</p>
+                <p class="h2_l">私たちについて</p>             
+            </h2>
+            <div class="about_content">
+                <p class="about_txt">
+                    私たちは神戸市を拠点に住宅の設計を行っている建築事務所です。私たちにとって住宅は単なる建物ではありません。そこには家族が過ごす時間があり、何気ない日常があり、これから先の人生があります。だから私たちは、流行のデザインや一時的な快適さだけを追い求めるのではなく、そこに暮らす人の価値観や生活、土地の個性まで丁寧に読み取り、一邸ごとに最適な住まいを考えます。一級建築士として培ってきた知識と経験をもとに、長く愛され、時を重ねるほど価値を感じられる住宅をつくります。
+                </p>
+                <a href="#" class="view_more">
+                    詳しくみる
+                    <span><img src="images/arrow.png" alt="矢印"></span>
+                </a>    
+            </div>
+        </section>
+        <section class="scroll-stage" id="scrollStage">
+            <div class="scroll-stage-sticky">
+                <div class="stage-bg" id="expandImg"></div>
+                <div class="stage-overlay" id="stageOverlay"></div>
+                <h2 class="stage-title" id="stageTitle">
+                    <p class="h2_s">OUR COMMITMENT</p>
+                    <p class="h2_l">設計・品質へのこだわり</p>
+                </h2>
+                <div class="stage-content" id="hScrollTrack">
+                    <ul class="commitment_list">
+                        <li>
+                            <div class="com_img">
+                                <img src="images/com_01.jpg" alt="暮らしを読み解く設計">
+                            </div>
+                            <h3>
+                                <span>01</span>
+                                暮らしを読み解く設計
+                            </h3>
+                            <p>
+                                家族ごとに、心地よい暮らしは違います。家族構成や生活リズム、趣味、将来の変化まで丁寧にヒアリングし、住宅を設計します。「どんな家が欲しいか」だけではなく、「どんな暮らしをしたいのか」から考えます。
+                            </p>
+                        </li>
+                        <li>
+                            <div class="com_img">
+                                <img src="images/com_02.jpg" alt="暮らしを読み解く設計">
+                            </div>
+                            <h3>
+                                <span>02</span>
+                                素材へのこだわり
+                            </h3>
+                            <p>
+                                無垢材や自然素材など、年月とともに表情を変える素材を適材適所に使用しています。見た目の美しさだけではなく、手触りや経年変化、メンテナンス性まで考え、本当に長く使える素材を選びます。
+                            </p>
+                        </li>
+                        <li>
+                            <div class="com_img">
+                                <img src="images/com_03.jpg" alt="暮らしを読み解く設計">
+                            </div>
+                            <h3>
+                                <span>03</span>
+                                性能へのこだわり
+                            </h3>
+                            <p>
+                                私たちは美しいだけの住宅を良い住宅とは呼びません。デザインだけではなく、耐震性・断熱性・気密性、耐久性など、住宅としての基本性能にも妥協しません。見えない部分だからこそ、確かな知識と技術に基づいて設計します。
+                            </p>
+                        </li>
+                        <li>
+                            <div class="com_img">
+                                <img src="images/com_04.png" alt="暮らしを読み解く設計">
+                            </div>
+                            <h3>
+                                <span>04</span>
+                                細部まで丁寧に
+                            </h3>
+                            <p>
+                                建具の納まり、照明の位置、コンセントの高さ、収納の使いやすさ。一見すると小さな違いでも、毎日の暮らしの中では大きな違いになります。図面の細部まで丁寧に検討し、完成後の暮らしを想像しながら設計します。
+                            </p>
+                        </li>
+                    </ul>        
+                </div>
+                <a href="#" class="view_more stage-view-more" id="stageViewMore">
+                    詳しくみる
+                    <span><img src="images/arrow.png" alt="矢印"></span>
+                </a>     
+                <a href="#" class="view_more_white">
+                    詳しくみる
+                    <span><img src="images/arrow_white.png" alt="矢印"></span>
+                </a>        
+            </div>
+        </section>
+        <section id="process_hp">
+            <div class="process_pin">
+                <h2>
+                    <p class="h2_s">OUR PROCESS</p>
+                    <p class="h2_l">家づくりの流れ</p>             
+                </h2>
+        
+                <div class="process_wrapper">
+                    <ul class="process_images pc-only">
+                        <li class="process_image is-active" data-step="1">
+                            <img src="images/step_01.jpg" alt="">
+                        </li>
+                        <li class="process_image" data-step="2">
+                            <img src="images/step_02.jpg" alt="">
+                        </li>
+                        <li class="process_image" data-step="3">
+                            <img src="images/step_03.jpg" alt="">
+                        </li>
+                        <li class="process_image" data-step="4">
+                            <img src="images/step_04.jpg" alt="">
+                        </li>
+                        <li class="process_image" data-step="5">
+                            <img src="images/step_05.jpg" alt="">
+                        </li>
+                        <li class="process_image" data-step="6">
+                            <img src="images/step_06.jpg" alt="">
+                        </li>
+                    </ul>
+        
+                    <div class="process_txt pc-only">
+                        <div class="step is-active" data-step="1">
+                            <h3><span>STEP 01</span>ご相談</h3>
+                            <p>まずは、暮らしについてお聞かせください。土地のこと、家族のこと、理想の暮らし。まだ具体的なイメージがなくても構いません。</p>
+                        </div>
+                        <div class="step" data-step="2">
+                            <h3><span>STEP 02</span>ヒアリング・敷地調査</h3>
+                            <p>暮らしと土地を、丁寧に読み解きます。ご家族のご要望を伺いながら、敷地の形状、方位、光、風、周辺環境などを調査します。</p>
+                        </div>
+                        <div class="step" data-step="3">
+                            <h3><span>STEP 03</span>プランニング</h3>
+                            <p>暮らしを、一つの住まいへ。ヒアリングと敷地調査をもとに、動線や空間構成、光や風の入り方まで考えながらプランをご提案します。</p>
+                        </div>
+                        <div class="step" data-step="4">
+                            <h3><span>STEP 04</span>基本・実施設計</h3>
+                            <p>素材、設備、照明、建具、収納など、完成後の暮らしを想像しながら詳細を詰めていきます。</p>
+                        </div>
+                        <div class="step" data-step="5">
+                            <h3><span>STEP 05</span>施工・現場監理</h3>
+                            <p>施工会社と連携しながら、設計図通りに工事が進んでいるかを確認。品質を保つため、設計者自身が現場を確認します。</p>
+                        </div>
+                        <div class="step" data-step="6">
+                            <h3><span>STEP 06</span>完成・お引き渡し</h3>
+                            <p>ここから暮らしが始まります。完成した住まいを一緒に確認し、お引き渡し。その後も、長く安心して暮らしていただけるようサポートします。</p>
+                        </div>
+                    </div>
+
+                    <div class="process_mobile sp-only">
+                        <div class="process_mobile_item">
+                            <div class="process_mobile_img"><img src="images/step_01.jpg" alt=""></div>
+                            <h3><span>STEP 01</span>ご相談</h3>
+                            <p>まずは、暮らしについてお聞かせください。土地のこと、家族のこと、理想の暮らし。まだ具体的なイメージがなくても構いません。</p>
+                        </div>
+                        <div class="process_mobile_item">
+                            <div class="process_mobile_img"><img src="images/step_02.jpg" alt=""></div>
+                            <h3><span>STEP 02</span>ヒアリング・敷地調査</h3>
+                            <p>暮らしと土地を、丁寧に読み解きます。ご家族のご要望を伺いながら、敷地の形状、方位、光、風、周辺環境などを調査します。</p>
+                        </div>
+                        <div class="process_mobile_item">
+                            <div class="process_mobile_img"><img src="images/step_03.jpg" alt=""></div>
+                            <h3><span>STEP 03</span>プランニング</h3>
+                            <p>暮らしを、一つの住まいへ。ヒアリングと敷地調査をもとに、動線や空間構成、光や風の入り方まで考えながらプランをご提案します。</p>
+                        </div>
+                        <div class="process_mobile_item">
+                            <div class="process_mobile_img"><img src="images/step_04.jpg" alt=""></div>
+                            <h3><span>STEP 04</span>基本・実施設計</h3>
+                            <p>素材、設備、照明、建具、収納など、完成後の暮らしを想像しながら詳細を詰めていきます。</p>
+                        </div>
+                        <div class="process_mobile_item">
+                            <div class="process_mobile_img"><img src="images/step_05.jpg" alt=""></div>
+                            <h3><span>STEP 05</span>施工・現場監理</h3>
+                            <p>施工会社と連携しながら、設計図通りに工事が進んでいるかを確認。品質を保つため、設計者自身が現場を確認します。</p>
+                        </div>
+                        <div class="process_mobile_item">
+                            <div class="process_mobile_img"><img src="images/step_06.jpg" alt=""></div>
+                            <h3><span>STEP 06</span>完成・お引き渡し</h3>
+                            <p>ここから暮らしが始まります。完成した住まいを一緒に確認し、お引き渡し。その後も、長く安心して暮らしていただけるようサポートします。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- 見えないスクロールトリガー：スクロール量と切り替えタイミングを作る -->
+            <div class="process_triggers">
+                <div class="trigger" data-step="1"></div>
+                <div class="trigger" data-step="2"></div>
+                <div class="trigger" data-step="3"></div>
+                <div class="trigger" data-step="4"></div>
+                <div class="trigger" data-step="5"></div>
+                <div class="trigger" data-step="6"></div>
+            </div>
+        </section>
+        <section id="works_hp">
+            <h2>
+                <p class="h2_s">SELECTED WORKS</p>
+                <p class="h2_l">施工事例</p>             
+            </h2>
+            <ul class="work_list">
+                <li>
+                    <a href="#">
+                        <img src="images/case_01.jpg" alt="">
+                        <h3>光と庭がつながる家</h3>
+                        <ul class="spec">
+                            <li>
+                                <p class="title">所在地</p>
+                                <p class="value">芦屋市</p>
+                            </li>
+                            <li>
+                                <p class="title">延床面積</p>
+                                <p class="value">132.48㎡</p>
+                            </li>
+                            <li>
+                                <p class="title">構造</p>
+                                <p class="value">木造2階建</p>
+                            </li>
+                        </ul>    
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/case_02.jpg" alt="">
+                        <h3>余白を楽しむ家</h3>
+                        <ul class="spec">
+                            <li>
+                                <p class="title">所在地</p>
+                                <p class="value">神戸市灘区</p>
+                            </li>
+                            <li>
+                                <p class="title">延床面積</p>
+                                <p class="value">98.24㎡</p>
+                            </li>
+                            <li>
+                                <p class="title">構造</p>
+                                <p class="value">木造2階建</p>
+                            </li>
+                        </ul>                            
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/case_03.jpg" alt="">
+                        <h3>素材と暮らす家</h3>
+                        <ul class="spec">
+                            <li>
+                                <p class="title">所在地</p>
+                                <p class="value">西宮市</p>
+                            </li>
+                            <li>
+                                <p class="title">延床面積</p>
+                                <p class="value">145.12㎡</p>
+                            </li>
+                            <li>
+                                <p class="title">構造</p>
+                                <p class="value">木造2階建</p>
+                            </li>
+                        </ul>                            
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/case_04.jpg" alt="">
+                        <h3>光を抱く中庭の家</h3>
+                        <ul class="spec">
+                            <li>
+                                <p class="title">所在地</p>
+                                <p class="value">神戸市須磨区</p>
+                            </li>
+                            <li>
+                                <p class="title">延床面積</p>
+                                <p class="value">128.76㎡</p>
+                            </li>
+                            <li>
+                                <p class="title">構造</p>
+                                <p class="value">木造2階建</p>
+                            </li>
+                        </ul>                            
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="view_more">
+                もっとみる
+                <span><img src="images/arrow.png" alt="矢印"></span>
+            </a>    
+        </section>
+        <section id="news_hp">
+            <h2>
+                <p class="h2_s">NEWS</p>
+                <p class="h2_l">お知らせ</p>             
+            </h2>
+            <div class="news_content">
+                <ul class="news_list">
+                    <li>
+                        <a href="#">
+                            <div class="post_info">
+                                <span class="date">2026.08.10</span>
+                                <span class="news_category">施工事例</span>                            
+                            </div>
+                            <p class="news_title">
+                                施工事例「光と庭がつながる家」を公開しました
+                            </p>    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="post_info">
+                                <span class="date">2026.07.28</span>
+                                <span class="news_category">見学会</span>    
+                            </div>
+                            <p class="news_title">
+                                完成見学会のお知らせ
+                            </p>    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="post_info">
+                                <span class="date">2026.07.12</span>
+                                <span class="news_category">お知らせ</span>    
+                            </div>
+                            <p class="news_title">
+                                夏季休業のお知らせ
+                            </p>                                
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" class="view_more">
+                    もっとみる
+                    <span><img src="images/arrow.png" alt="矢印"></span>
+                </a>    
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_left">
+            <div>
+                <div class="footer_logo">
+                    <img src="images/logo-white.png" alt="ロゴ">
+                </div>
+                <div class="company_info">
+                    <p class="address">
+                        〒650-0001<br>
+                        兵庫県神戸市中央区○○ 1-2-3    
+                    </p>
+                    <div class="contact_info">
+                        <a href="tel:0780000000">078-000-0000</a>
+                        <a href="mailto:info@tsumugi-architects.jp">info@tsumugi-architects.jp</a>    
+                    </div>
+                    <a href="#" class="external_link">Instagram</a>
+                    <a href="#" class="external_link">note</a>    
+                </div>     
+            </div>
+            <nav class="footer_nav">
+                <ul>
+                    <li><a href="#">ホーム</a></li>
+                    <li><a href="#">私たちについて</a></li>
+                    <li><a href="#">こだわり</a></li>
+                    <li><a href="#">施工事例</a></li>
+                    <li><a href="#">お知らせ</a></li>
+                    <li><a href="#">会社情報</a></li>        
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer_right">
+            <div class="footer_right_content">
+                <h2>
+                    <p class="h2_s">CONTACT</p>
+                    <p class="h2_l">お問い合わせ</p>             
+                </h2>
+                <p class="contact_us">
+                    ご相談・お問い合わせはこちらから    
+                </p>            
+                <a href="#" class="view_more">
+                    お問い合わせフォーム
+                    <span><img src="images/arrow_white.png" alt="矢印"></span>
+                </a>        
+            </div>
+        </div>
+        <div class="bottom">
+            <small>
+                &copy; 2026 TSUMUGI ARCHITECT AND DESIGN STUDIO
+            </small>
+            <small>
+                一級建築士事務所登録番号 兵庫県知事登録 第00000号
+            </small>    
+        </div>    
+    </footer>
+</body>
+</html>
